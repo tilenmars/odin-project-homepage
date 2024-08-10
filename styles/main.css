@@ -1,5 +1,19 @@
 body{
-    background: linear-gradient(#9198e5, white);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,ffffff+50 */
+/* background: linear-gradient(to bottom,  #1e5799 0%,#ffffff 50%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: linear-gradient(-30deg, white 80%, #0891b2 20%);
+color: dimgrey;
+    
+}
+main{
+    text-align: center;
+}
+header{
+    font-size: large;
+    margin: 5vw;
+}
+h1, h2, h3, h4, h5, h6{
+    color: black;
 }
 .icon{
     width: 20px;
@@ -26,9 +40,23 @@ body{
 .headerTitle{
     text-align: center;
     font-size: 10vw;
+    color: black;
 
 }
 .iconContainer{
     display: flex;
     justify-content: center;
+}
+.projectImage{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 4vw;
+    padding: 3vw;
+    margin-bottom: 15vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardTitle{
+    text-align: center;
 }
