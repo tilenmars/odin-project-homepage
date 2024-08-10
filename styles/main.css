@@ -7,16 +7,22 @@ height: 100%;
 margin: 0;
 padding: 0;
 color: dimgrey;
+
     
 }
 footer{
+    box-sizing:border-box; 
     background-color: #0891b2;
-    margin: 0; padding: 0;
+    margin: 0; padding: 5vw;
     width: 100%;
+    color: white;
 }
 footer h1{
     color: white;
     text-align: center;
+}
+footer p{
+    width: 100%;
 }
 main{
     text-align: center;
@@ -28,9 +34,6 @@ header{
 }
 h1, h2, h3, h4, h5, h6{
     color: black;
-}
-#grid-container{
-    display: grid;
 }
 .icon{
     width: 20px;
@@ -58,7 +61,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     font-size: 10vw;
     color: black;
-
+    
 }
 .iconContainer{
     display: flex;
@@ -76,4 +79,11 @@ h1, h2, h3, h4, h5, h6{
 }
 .cardTitle{
     text-align: center;
+}
+#grid-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
 }
