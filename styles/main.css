@@ -1,3 +1,23 @@
+@media screen and (min-width: 800px) {
+    .cardContainer{
+        grid-template-rows: repeat(3, minmax(280px, 1fr));
+        grid-auto-flow: column;
+    }
+    .headerImage{
+        width: 40%;
+        position: relative;
+    }
+    .headerImageText{
+        bottom: 90%
+    }
+    .headerCard{
+        margin: 4vw;
+        padding: 3vw;
+        margin-bottom: 15vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }    
+}
+
 body{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,ffffff+50 */
 /* background: linear-gradient(to bottom,  #1e5799 0%,#ffffff 50%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -101,10 +121,4 @@ h1, h2, h3, h4, h5, h6{
     grid-template-columns: 100%;
     min-height: 100vh;
     min-height: 100svh;
-}
-@media screen and (min-width: 800px) {
-    .cardContainer{
-        grid-template-rows: repeat(3, minmax(280px, 1fr));
-        grid-auto-flow: column;
-    }  
 }
