@@ -97,6 +97,12 @@ h1, h2, h3, h4, h5, h6{
 .cardTitle{
     text-align: center;
 }
+.footerImage{
+    width: 100%;
+}
+.filter-white{
+    filter: brightness(0) invert(1);
+}
 #grid-container{
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -108,6 +114,10 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (min-width: 800px) {
     body{
         background: linear-gradient(-30deg, white 85%, #0891b2 15%);
+    }
+    h1{
+        text-align: left;
+        margin-left: 5vw;
     }
     .cardContainer{
         grid-template-rows: repeat(3, minmax(280px, 1fr));
@@ -122,7 +132,7 @@ h1, h2, h3, h4, h5, h6{
         shape-outside: url(/images/suit-up.JPG);
         shape-margin: 5vw;
     }
-    .iconContainer{
+    .headerCard .iconContainer{
         display: none;
     }
     .headerImageText{
