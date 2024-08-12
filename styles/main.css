@@ -62,11 +62,12 @@ h1, h2, h3, h4, h5, h6{
 .headerImageText{
     color: white;
     font-family: Roboto slab;
-    font-size: 10vh;
+    font-size: calc(4vw + 4vh);
     line-height: 0.9;
     position: absolute;
     z-index: 5;
-    bottom: 40%;
+    bottom:60vw;
+    white-space: nowrap;
     /* vertical-align: top; */
 }
 .headerTitle{
@@ -121,15 +122,19 @@ h1, h2, h3, h4, h5, h6{
         shape-outside: url(/images/suit-up.JPG);
         shape-margin: 5vw;
     }
+    .iconContainer{
+        display: none;
+    }
     .headerImageText{
-        font-size: calc(3vw + 3vh);
-        width: 100%;
+        font-size: calc(4vw + 4vh);
+        white-space: nowrap;
         color: white;
         position: relative;
         bottom: 20vw;
         right: 20vw;
     }
     .headerCard{
+        background-color: white;
         text-align: justify;
         float: left;
         vertical-align: top;
@@ -144,4 +149,7 @@ h1, h2, h3, h4, h5, h6{
         font-size: 32px;
         overflow: clip;
     } 
+    .headerTitle{
+        font-size: calc(3vw + 3vh);;
+    }
 }
