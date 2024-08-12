@@ -121,9 +121,6 @@ h1, h2, h3, h4, h5, h6{
         shape-outside: url(/images/suit-up.JPG);
         shape-margin: 5vw;
     }
-    .iconContainer{
-        display: none;
-    }
     .headerImageText{
         font-size: calc(3vw + 3vh);
         width: 100%;
