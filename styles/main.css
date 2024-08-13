@@ -172,3 +172,15 @@ h1, h2, h3, h4, h5, h6{
         max-width: 50%;
     }
 }
+@media screen and (min-width: 1200px){
+    .cardContainer{
+        grid-template-rows: repeat(2, minmax(280px, 1fr));
+        grid-auto-flow: column;
+    }
+.headerImage{
+    position:static;
+}
+    .headerTitle{
+    text-align: left;
+}
+}
